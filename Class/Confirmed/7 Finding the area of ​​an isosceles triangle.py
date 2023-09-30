@@ -1,6 +1,6 @@
 import math
 a = int(input("Enther the value of a: "))
-b = int(input ("Enter the Value Of b: "))  #This is for taking inputs from user.
+b = int(input ("Enter the Value Of b: "))
 c = int(input ("Enter the Value Of c: "))
 
 if((a+b)>c and (b+c)>a and (c+a)>b):

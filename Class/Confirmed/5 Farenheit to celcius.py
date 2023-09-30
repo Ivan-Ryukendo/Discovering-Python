@@ -1,4 +1,4 @@
-F = int(input("Enter the value of Fahrenheit: "))
+F = float(input("Enter the value of Fahrenheit: "))
 
 C = ((F-32)*5)/9
 

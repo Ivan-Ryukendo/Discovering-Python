@@ -3,16 +3,16 @@ while True:
 
     if choice == "1":
 
-        F = int(input("Enter the value in Fahrenheit: "))
+        F = float(input("Enter the value in Fahrenheit: "))
     
         C = ((F - 32) * 5) / 9
     
         print("Your Celsius will be:", C)
 
     elif choice == "2":
-        C = int(input("Enter the value of Celsius: "))
+        C = float(input("Enter the value of Celsius: "))
 
-        F = (C*9/5)+32
+        F = (C * 9 / 5) + 32
 
         print("Your Fahrenheit will be:", F)
     
