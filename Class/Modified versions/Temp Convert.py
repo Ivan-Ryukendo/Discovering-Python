@@ -6,15 +6,30 @@ while True:
         F = float(input("Enter the value in Fahrenheit: "))
     
         C = ((F - 32) * 5) / 9
+
+        K = -273.1
+
+        if (C < K):
+
+            print("Thats too cold it can't be processed.\n")
+
+        else:
     
-        print("Your Celsius will be:", C)
+            print("Your Celsius will be:", C)
+        
 
     elif choice == "2":
         C = float(input("Enter the value of Celsius: "))
 
         F = (C * 9 / 5) + 32
 
-        print("Your Fahrenheit will be:", F)
+        K = -459.67
+
+        if (F < K):
+            print("Thats too cold it can't be processed.\n")
+
+        else:
+            print("Your Fahrenheit will be:", F)
     
     elif choice == "3":
         break

@@ -1,0 +1,4 @@
+List1 = ['a', 'b', 'c']
+List2 = ['d', 'e', 'f']
+List3 = List1* float(input("Enther the numbers of inpus: "))
+print(List3)
