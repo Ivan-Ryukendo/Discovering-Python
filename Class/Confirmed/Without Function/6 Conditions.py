@@ -1,16 +1,10 @@
-a = 513
-b = 318
-c = 653
-d = 446
-e = 800
+a = int(input("Enter the value of a: "))
+b = int(input("Enter the value of b: "))
+c = int(input("Enter the value of c: "))
 
-if ((a>b)and(a>c)and(a>d)and(a>e)):
-    print("The greatest number is", a, "!")
-elif ((b>a)and(b>c)and(b>d)and(b>e)):
-    print("The greatest number is", b,"!")
-elif ((c>a)and(c>b)and(c>d)and(c>e)):
-    print("The greatest number is", c,"!")
-elif ((d>a)and(d>b)and(d>c)and(d>e)):
-    print("The greatest number is", d,"!")
+if ((a>b)and(a>c)):
+    print("The greatest number is A as", a)
+elif ((b>a)and(b>c)):
+    print("The greatest number is B as", b)
 else:
-    print ("The greatest number is", e ,"!")
+    print ("The greatest number is C as", c)
